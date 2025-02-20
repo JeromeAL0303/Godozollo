@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Godozollo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" style="text-decoration: none"><h1>Godozollo</h1></a>
+
+      <img class="menuBar" src="./assets/menus.png" alt="Menu Bar Image" />
+
+      <nav class="navbar">
+        <a href="#" alt="Home bar">Home</a>
+        <a href="#feature" alt="feature bar">Feature</a>
+        <a href="#about" alt="about bar">About</a>
+        <a href="#contact" alt="contact bar">Contact</a>
+      </nav>
+    </header>
+
+    <section class="navbar-left">
+      <div class="leftBar">
+        <a href="#" alt="Home bar">Home</a>
+        <a href="#feature" alt="feature bar">Feature</a>
+        <a href="#about" alt="about bar">About</a>
+        <a href="#contact" alt="contact bar">Contact</a>
+      </div>
+    </section>
+
+    <section class="home">
+      <div class="flex-home">
+        <div class="grid-home">
+          <div class="content">
+            <h2>Welcome to Godozollo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel
+              culpa accusamus fugit earum animi quos consequuntur ullam,
+              distinctio autem fugiat dignissimos fuga esse quidem labore
+              architecto laborum unde? Quasi.
+            </p>
+
+            <div class="btn">
+              <div class="flex-btn">
+                <button
+                  class="btn-feature"
+                  onclick="document.location='#feature'"
+                >
+                  Feature
+                </button>
+                <button
+                  class="btn-learnMore"
+                  onclick="document.location='#about'"
+                >
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature" class="feature">
+      <div class="flex-feature">
+        <div class="grid-feature">
+          <div calss="featureDivText">
+            <div class="feature-text">
+              <div class="featureDetailText">
+                <h2 class="ourFeature">Our Feature</h2>
+                <p class="featureText_p">User-friendly</p>
+                <p class="featureText_p">Efficient</p>
+                <p class="featureText_p">Reliable</p>
+              </div>
+            </div>
+          </div>
+          <div class="godozollo-image">
+            <img
+              class="godozolloImage"
+              src="./assets/godozollo.jpg"
+              alt="godozollo Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="flex-about">
+        <div class="about-text-1">
+          <h2>About Us</h2>
+          <p class="item-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ut
+            maxime saepe. Quia natus dolorum nulla voluptate deserunt laboriosam
+            cum quis officiis ut doloremque omnis repellat ipsam eveniet, ex
+            provident.
+          </p>
+        </div>
+
+        <div class="about-text-2">
+          <h2>Who we are</h2>
+          <p class="item-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            magni laudantium nihil fugiat, accusamus tempore dolorum quibusdam
+            provident alias voluptatibus quam praesentium quae doloremque quis
+            labore amet consectetur itaque asperiores!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="flex-contact">
+        <div class="grid-contact">
+          <div class="getInTouch">
+            <h2 class="getInTouch-text">Get in touch</h2>
+          </div>
+          <div class="getInTouch-Image">
+            <img
+              class="getInTouch-logo"
+              src="./assets/Picture1.png"
+              alt="get in touch Image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-contactDetail">
+        <div class="grid-contactDetail">
+          <div class="detail">
+            <p class="contactDetail">Contact: 09345678901</p>
+            <p class="contactDetail">Gmail: example@gmail.com</p>
+            <p class="contactDetail">facebook: @example</p>
+          </div>
+
+          <div class="div-contact">
+            <div class="contactNumber">
+              <img
+                class="contactImage"
+                src="./assets/phone-call.png"
+                alt="Contact Number Image"
+              />
+            </div>
+          </div>
+
+          <div class="div-gmail">
+            <div class="gmail">
+              <img
+                class="gmailImage"
+                src="./assets/gmail-logo.png"
+                alt="Gmail Image"
+              />
+            </div>
+          </div>
+
+          <div class="div-facebook">
+            <div class="facebook">
+              <img
+                class="facebookImage"
+                src="./assets/facebook-app-symbol.png"
+                alt="Facebook Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>© Jerome</footer>
+    </section>
+    <script src="./script.js" charset="utf-8"></script>
+  </body>
+</html>

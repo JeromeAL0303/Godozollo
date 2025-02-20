@@ -1,0 +1,353 @@
+@font-face {
+  font-family: Abadi Extra Light;
+  src: url("./font/Abadi-Extra-Light.ttf");
+}
+
+@font-face {
+  font-family: Gill Sans Nova Ultra Bold;
+  src: url("./font/Gill-Sans-Nova-Ultra-Bold.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+/*Universal*/
+
+* {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #71bbb2;
+  margin: 0;
+  font-family: "Gill Sans Nova Ultra Bold", "Signika";
+}
+
+h2 {
+  color: #71bbb2;
+  font-family: "Gill Sans Nova Ultra Bold", "Signika";
+}
+
+p {
+  font-family: "Abadi Extra Light", "arial";
+}
+
+/*Header*/
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+}
+
+nav > a {
+  color: #71bbb2;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Signika", "Abadi Extra Light";
+}
+
+.navbar {
+  flex-basis: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Home Section*/
+.home {
+  background-image: url("./assets/godozollo-inOcean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10vh 0 0 0;
+  height: 90vh;
+  width: 100%;
+}
+
+.flex-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.content {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.btn {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.btn-feature {
+  background-color: #71bbb2;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+
+.btn-learnMore {
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px;
+  border: 2px solid #71bbb2;
+  color: #71bbb2;
+  cursor: pointer;
+}
+
+/*Feature Section*/
+.feature {
+  background-color: #71bbb2;
+  height: 100vh;
+}
+
+.flex-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.feature-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ourFeature {
+  color: white;
+}
+
+.godozollo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.godozolloImage {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/*About Section*/
+.about {
+  padding: 10vh 0 10vh 0;
+  height: 90vh;
+}
+
+.flex-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.about-text-1,
+.about-text-2 {
+  width: 50%;
+}
+
+/*Contact Section*/
+.contact {
+  height: 90vh;
+}
+
+.flex-contact {
+  background-color: #71bbb2;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.getInTouch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.getInTouch-text {
+  color: white;
+  text-align: end;
+}
+
+.getInTouch-Image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+}
+
+.getInTouch-logo {
+  width: 40%;
+  height: auto;
+}
+
+.flex-contactDetail {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+.grid-contactDetail {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+}
+
+.div-contact,
+.div-gmail,
+.div-facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactNumber,
+.gmail,
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactImage,
+.gmailImage,
+.facebookImage {
+  background-color: #71bbb2;
+  padding: 20%;
+  border-radius: 100%;
+  width: 30%;
+  height: auto;
+}
+
+.detail {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-contact {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.div-gmail {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.div-facebook {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+footer {
+  background-color: #71bbb2;
+  color: white;
+  font-family: "Abadi Extra Light", "arial";
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.menuBar {
+  width: 2em;
+  height: auto;
+}
+
+.menuBar {
+  position: absolute;
+  visibility: hidden;
+}
+
+.visibility {
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 576px) {
+  .menuBar {
+    position: relative;
+    visibility: visible;
+  }
+
+  nav {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .navbar-left {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    height: 90vh;
+    width: 50%;
+  }
+
+  .leftBar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    line-height: 50px;
+  }
+
+  .leftBar > a {
+    color: #71bbb2;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Signika", "Abadi Extra Light";
+    padding: 0 0 0 10px;
+  }
+
+  .ourFeature {
+    font-size: 1em;
+  }
+  .featureText_p {
+    font-size: 12px;
+  }
+
+  .contactDetail {
+    font-size: 12px;
+  }
+
+  .btn-feature {
+    padding: 5px 15px 5px 15px;
+  }
+}
